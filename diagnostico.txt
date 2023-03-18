@@ -22,3 +22,15 @@ Propiedades/Atributos: Titular (obligatorio); Cantidad (opciona,float)
 Comportamiento/Métodos: Mostrar; Ingresar; Retirar; getters; setters
 Objeto: cuenta de un titular con la cantidad de plata que tiene, puedeingresar, retirar y
 mostrar el dinero que tiene en la cuenta.
+
+Ejercicio 8
+clase Cuenta joven
+hereda de la clase Cuenta
+atributo: bonificación (expresado en %)
+métodos: 
+constructor
+setters y getters para el nuevo atributo
+es_titular_valido() v si es mayor de edad pero menor de 25
+false  < 18
+retira solo si el titular es es_titular_valido
+mostrar: return "Cuenta Joven" + bonificación de la cuenta
