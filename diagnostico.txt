@@ -1,0 +1,24 @@
+class Cuenta
+atributos:
+    titular (string) obligatorio 
+    Cantidad (float) opcional
+
+metodos:
+    constructor con datos vacios ("")
+    getter y setter para cada atributos
+
+atributo solo se puede modificar ingresando o 
+retirando dinero
+
+mostrar(): muestra los datos de la Cuenta
+Ingresar (cantidad): ingresa plata a la Cuenta
+si es negativa, no hará nada
+retirar(cantidad): retirar cantidad.
+la cuenta puede estar en numeros rojos?
+
+
+Clase: Cuenta;
+Propiedades/Atributos: Titular (obligatorio); Cantidad (opciona,float)
+Comportamiento/Métodos: Mostrar; Ingresar; Retirar; getters; setters
+Objeto: cuenta de un titular con la cantidad de plata que tiene, puedeingresar, retirar y
+mostrar el dinero que tiene en la cuenta.
